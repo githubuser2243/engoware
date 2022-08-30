@@ -1298,7 +1298,7 @@ do
     local worker = funcs:newWorker()
     local acdisabler = {Enabled = false}
     acdisabler = GuiLibrary.Objects.exploitsWindow.API.CreateOptionsButton({
-        Name = "acdisabler",
+        Name = "disabler",
         Function = function(callback)
             if callback then
                 if entity.isAlive then 
